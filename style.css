@@ -1,0 +1,64 @@
+div {
+  height: 500px;
+  background: linear-gradient(300deg, darkblue,#30D5C8, lightgreen);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.close:hover{
+  background-color:  #e58e73  ;
+  border-color:  #e58e73  ;
+}
+.close{
+  background-color: red;
+  border-color: red;
+  margin: 0px;
+}
+h1{
+  font-family: cursive;
+  text-align: center;
+  margin: 0px;
+}
+h2{
+  
+  font-family: cursive;
+  text-align: center;
+  margin: 0px;
+  margin-top: 5px;
+}
+.reset{
+  margin-top: 20px;
+  font-family: cursive;
+  border-radius: 10%;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background: linear-gradient(300deg, yellow, orange, gold);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.end{
+  visibility: hidden;
+}
+
